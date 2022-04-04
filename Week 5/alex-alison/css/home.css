@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(19, 48, 73);
+}
+
+nav{
+    background-color: rgb(9, 16, 22);;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav .name{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.links{
+    display: flex;
+
+}
+
+.links li{
+    margin: 10px;
+    list-style: none;
+    color: white;
+}
+
+.links li a{
+    color: white;
+} 
+
+.msg{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+
+
