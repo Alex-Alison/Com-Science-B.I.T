@@ -93,6 +93,9 @@ nav .navbar .name{
     border-radius: 5px;
 }
 
+.intro{
+    position: fixed;
+}
 main{
     padding: 20px;
 }
