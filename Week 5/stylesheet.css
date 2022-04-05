@@ -1,0 +1,16 @@
+body{
+    background-color: blue;
+}
+
+body a{
+    color: aliceblue;
+}
+
+body h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+body h3{
+    color: yellow;
+}
