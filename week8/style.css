@@ -93,9 +93,7 @@ nav .navbar .name{
     border-radius: 5px;
 }
 
-.intro{
-    position: fixed;
-}
+
 main{
     padding: 20px;
 }
@@ -135,4 +133,10 @@ main .explain dl dd{
     #maincontent {
         background-color: rgb(114, 117, 156);
     }  
+    nav{
+        background-color: rgb(39, 47, 54);
+    }
+    .navbar .navlink ul li{
+        display: block;
+    }
 }
