@@ -20,11 +20,12 @@ nav{
 nav .left .logo img {
     width:150px;
     height:100px;
-    
+
     /* background-color: blue; */
 }
 nav .right{
     margin-top: auto;
+    
     margin-bottom: auto;
 }
 nav .right ul {
