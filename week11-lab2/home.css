@@ -10,6 +10,8 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: rgb(5, 38, 42);
+    position: sticky;
+    top: 0;
     
 }
 
@@ -68,5 +70,127 @@ nav .right ul > li :hover{
 nav .right ul li span:hover +.register, nav .right ul li .register:hover{
     display: block;
 }
+
+main .intro{
+    background: url(asset/pic1.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+    height: 150px;
+    overflow: hidden;
+
+}
+main .intro .introtext h1{
+    font-size: 30px;
+}
+main .intro .introtext{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.infotext{
+    color:rgb(5, 38, 42);
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    word-spacing: 3pt;
+}
+
+.building h2{
+    text-align: center;
+    color:rgb(5, 38, 42);
+
+}
+.school{
+    /* background-color: green; */
+    height: 300px;
+    padding: 10px;
+}
+.school img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border: 2px red; */
+}
+
+.classes .form{
+    text-align: center;
+    color:rgb(5, 38, 42);
+}
+
+.classes >h3{
+    text-align: center;
+    color:rgb(5, 38, 42);
+    margin-top: 60px;
+
+}
+.classes .form p{
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.classes .stream .strm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    color: white;
+    border-radius: 15px;
+    /* text-align: center; */
+}
+
+.classes .stream{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.classes .stream .strm:nth-child(1){
+    background-color: rgb(52, 158, 199);
+}
+.classes .stream .strm:nth-child(2){
+    background-color: rgb(179, 46, 155);
+}
+.classes .stream .strm:nth-child(3){
+    background-color: rgb(172, 179, 46);
+}
+.classes .stream .strm:nth-child(4){
+    background-color: rgb(231, 76, 71);
+}
+
+.assembly{
+    margin-top: 10px;
+}
+
+.assemblyphoto {
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+
+.assembly >h3{
+    text-align: center;
+    color:rgb(5, 38, 42);
+}
+.assembly img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.foot{
+    height: 150px;
+    background-color:rgb(5, 38, 42) ;
+}
+
 
 
