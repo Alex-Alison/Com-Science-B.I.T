@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 10px;
 }
-header .sticky{
+header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -25,7 +25,7 @@ nav .left .logo img {
 }
 nav .right{
     margin-top: auto;
-    
+
     margin-bottom: auto;
 }
 nav .right ul {

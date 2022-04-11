@@ -1,9 +1,16 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 38, 42);
 }
 body{
     margin: 0;
     padding: 10px;
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 nav{
@@ -69,4 +76,7 @@ nav .right ul li span:hover +.register, nav .right ul li .register:hover{
     display: block;
 }
 
+main .name{
+    text-align: center;
+}
 
