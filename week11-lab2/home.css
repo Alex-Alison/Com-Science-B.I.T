@@ -5,13 +5,16 @@ body{
     margin: 0;
     padding: 10px;
 }
+header .sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
     background-color: rgb(5, 38, 42);
-    position: sticky;
-    top: 0;
 }
 
 nav .left .logo img {
@@ -227,7 +230,7 @@ main .assembly{
     }
     .school:hover{
         height: 370px;
-        transition: 2s ease-in-out;
+        transition: 5ms ease-in-out;
     }
     .classes .stream{
         grid-template-columns: 1fr 1fr;
