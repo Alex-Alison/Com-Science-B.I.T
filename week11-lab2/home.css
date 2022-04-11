@@ -12,7 +12,6 @@ nav{
     background-color: rgb(5, 38, 42);
     position: sticky;
     top: 0;
-    
 }
 
 nav .left .logo img {
@@ -115,8 +114,11 @@ main .intro .introtext{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* border: 2px red; */
 }
+
+
 
 .classes .form{
     text-align: center;
@@ -127,7 +129,6 @@ main .intro .introtext{
     text-align: center;
     color:rgb(5, 38, 42);
     margin-top: 60px;
-
 }
 .classes .form p{
     font-weight: bolder;
@@ -165,18 +166,18 @@ main .intro .introtext{
     background-color: rgb(231, 76, 71);
 }
 
-.assembly{
-    margin-top: 10px;
+main .assembly{
+    margin-top: 40px;
 }
 
 .assemblyphoto {
     height: 300px;
     padding: 10px;
-    margin-top: 10px;
     /* border: 2px solid red; */
 }
 
 .assembly >h3{
+    /* background-color: red; */
     text-align: center;
     color:rgb(5, 38, 42);
 }
@@ -188,8 +189,58 @@ main .intro .introtext{
 }
 
 .foot{
-    height: 150px;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    height: 120px;
     background-color:rgb(5, 38, 42) ;
+}
+
+.foot footer{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    nav .right ul li a,nav .right ul li span{
+        font-size: 23px;
+        margin-right: 50px;
+    }
+    main .intro{
+        background-attachment: fixed;
+        height: 200px;
+    }
+
+    .building{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5%;
+    }
+    .building h2{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .school{
+        height: 350px;
+    }
+    .school:hover{
+        height: 370px;
+        transition: 2s ease-in-out;
+    }
+    .classes .stream{
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10px;
+    }
+    .classes .stream .strm{
+        height: 200px;
+    }
+
+    .assemblyphoto {
+        height: 550px;
+    }
+
 }
 
 
