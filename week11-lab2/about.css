@@ -208,6 +208,15 @@ main .assembly{
     color: rgb(114, 111, 111);
 }
 
+.foot footer p{
+    display: inline-block;
+    margin-right: 15px;
+}
+.foot footer p:hover{
+    color: rgb(34, 192, 209);
+    cursor: pointer;
+}
+
 @media only screen and (max-width:347px) {
     nav{
         justify-self: normal;
