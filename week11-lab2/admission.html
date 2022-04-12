@@ -18,6 +18,7 @@
             <div class="right">
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li> 
                         <span>Admission</span>
                         <div class="register">
@@ -27,7 +28,6 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,9 +37,101 @@
             <h1>Admission Form</h1>
             <p>This admission is for registration for the school year</p>
         </div>
-        <form action="">
-            
-        </form>
+        <div class="registrationform">
+            <div class="formbg">
+                <form action="">
+                    <fieldset>
+                        <legend>Student Information</legend>
+                        <div class="grid">
+                            <div>
+                                <label for="fname">First Name</label><br>
+                                <input type="text" id="fname" name="fname" required>
+                            </div>
+                            <div>
+                                <label for="lname">Last Name</label> <br>
+                                <input type="text" id="lname" name="lname" required>
+                            </div>
+                            <div>
+                                <label for="DOB">DOB</label> <br>
+                                <input type="date" id="DOB" name="DOB" required>
+                            </div>
+                            <div>
+                                <label for="age">Age</label> <br>
+                                <input type="text" id="age" name="age" required>
+                            </div>
+                            <div>
+                                <label for="sex">Gender:</label><br>
+                                <select id="sex" name="sex" required>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Educational Information</legend>
+                        <div>
+                            <label for="entry">Entry Year</label><br>
+                            <input type="text" id="entry" name="entry" required>
+                        </div>
+                        <div>
+                            <label for="lvl">Level</label><br>
+                            <input type="text" id="lvl" name="lvl">
+                        </div>
+                        <div>
+                            <label for="exam">Exam Taken</label><br>
+                            <select name="exam" id="exam">
+                                <option value="NPSE">NPSE</option>
+                                <option value="BECE">BECE</option>
+                                <option value="WASSCE">WASSCE</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <p>Have you ever applied or attended this school</p>
+                            <input type="radio" id="yes" name="attended" value="yes" required>
+                            <label for="yes">Yes</label><br>
+                            <input type="radio" id="no" name="attended" value="no" required>
+                            <label for="no">No</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Residence Information</legend>
+                        <div>
+                            <label for="address">Address:</label><br>
+                            <input type="text" id="address" name="address"><br>
+                            <label for="city">City</label><br>
+                            <input type="text" id="city" name="city">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <div>
+                            <label for="phone1">Phone 1</label><br>
+                            <input type="tel" id="phone1" name="phone1" placeholder="+232 77 838-636" required>
+                        </div>
+                        <div>
+                            <label for="phone2">Phone 2</label><br>
+                            <input type="tel" id="phone2" name="phone2" placeholder="+232 77 838-636">
+                        </div>
+                        <div>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                        </div>
+                    </fieldset>
+                    <div class="btn">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+
+                </form>
+            </div>
+        </div>
     </main>
 </body>
 </html>

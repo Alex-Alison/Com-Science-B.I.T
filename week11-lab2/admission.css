@@ -17,13 +17,14 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: rgb(5, 38, 42);
-    
+    /* border: 2px solid red; */
 }
 
 nav .left .logo img {
     width:150px;
     height:100px;
     /* background-color: blue; */
+    /* border: 2px solid red; */
 }
 nav .right{
     margin-top: auto;
@@ -76,7 +77,101 @@ nav .right ul li span:hover +.register, nav .right ul li .register:hover{
     display: block;
 }
 
-main .name{
+main{
+    background-color: rgb(37, 50, 50);
+    margin-top: 0px;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+main .name h1,main .name p{
     text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.formbg{
+    padding: 20px;
+    background: linear-gradient(to top right, rgba(255,255,255,0.1),rgba(255,255,255,0.05));
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+form fieldset div label,legend,p{
+    color: rgb(92, 173, 182);
+}
+
+form fieldset div label{
+    margin-top: 20px;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+form fieldset div input,select{
+    background-color: rgba(255,255,255,0.7);
+    border: none;
+    border-radius: 7px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+form fieldset{
+    margin-top: 50px;
+}
+
+form .btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+form .btn input{
+    margin-right: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+@media only screen and (min-width:700px){
+    nav .right ul li a,nav .right ul li span{
+        font-size: 20px;
+        margin-right: 40px;
+    }
+}
+@media only screen and (min-width:926px) {
+    nav .right ul li a,nav .right ul li span{
+        font-size: 20px;
+        margin-right: 40px;
+    }
+
+    .registrationform{
+        display: flex;
+        justify-content: center;
+    }
+
+    .formbg{
+        width: 50%;
+    }
+    form fieldset div{
+        margin-top: 15px;
+        margin-left: 10px;
+        display: flex;
+    }
+
+    form fieldset div label,form fieldset div input{
+        margin-top: 0;
+    }
+
+    form fieldset div input,select{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    form fieldset .grid {
+        display: grid;
+        /* background-color: red; */
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
 }
 
