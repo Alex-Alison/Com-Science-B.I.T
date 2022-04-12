@@ -76,6 +76,14 @@ nav .right ul li span:hover +.register, nav .right ul li .register:hover{
     display: block;
 }
 
+nav .right ul > li :hover{
+    color: rgb(71, 162, 172);
+}
+
+nav .right ul li span:hover +.register, nav .right ul li .register:hover{
+    display: block;
+}
+
 main{
     /* background-color: red; */
     background-image: url("https://pbs.twimg.com/media/E_OkT8iXMAEfNLR?format=jpg&name=4096x4096");
