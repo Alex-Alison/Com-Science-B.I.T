@@ -1,10 +1,10 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(5, 38, 42);
+    padding: 0;
 }
 body{
     margin: 0;
-    padding: 10px;
+    padding: 0px;
 }
 
 header{
@@ -17,14 +17,13 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: rgb(5, 38, 42);
-    /* border: 2px solid red; */
+    
 }
 
 nav .left .logo img {
     width:150px;
     height:100px;
     /* background-color: blue; */
-    /* border: 2px solid red; */
 }
 nav .right{
     margin-top: auto;
@@ -133,6 +132,17 @@ form .btn input{
     background: none;
     color: white;
 }
+@media only screen and (max-width:347px) {
+    nav{
+        justify-self: normal;
+    }
+    nav .right ul li {
+        display: block;
+        margin-top: 5px;
+    }   
+    
+}
+
 @media only screen and (min-width:700px){
     nav .right ul li a,nav .right ul li span{
         font-size: 20px;
