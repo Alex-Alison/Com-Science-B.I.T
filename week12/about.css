@@ -43,6 +43,16 @@ nav ul li{
     list-style: none;
 }
 
+nav ul li:hover{
+    font-size: 20px;
+    transition: 200ms;
+
+}
+
+nav ul li a:hover{
+    color: rgba(239, 9, 9, 0.7);
+}
+
 nav ul li a{
 text-decoration: none;
 color: white;
@@ -91,6 +101,30 @@ main .intro{
     font-weight: bolder;
     color: white;
     text-align: center;
+}
+
+main .subject{
+    padding: 20px;
+}
+
+main .subject span{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(115, 114, 114);
+}
+
+main .subject ul li{
+    color: rgba(239, 9, 9, 0.7);
+    margin-top: 20px;
+}
+
+main .subject ul li:hover{
+    color: rgb(115, 114, 114);
+}
+
+main .subject ul li::before{
+    content: "\25BA \0020";
 }
 
  .oursch{
@@ -288,7 +322,7 @@ footer{
 }
 
 footer .head{
-    color: white;
+    color: rgba(239, 9, 9, 0.7);
     text-align: center;
     font-weight: bold;
     margin-top: 20px;
@@ -301,6 +335,11 @@ footer p{
     font-weight: lighter;
     font-size: 14px;
 }
+
+footer .about p:hover{
+    color: rgba(239, 9, 9, 0.7);
+}
+
 footer .sitelink >ul,li,a{
 list-style: none;
 text-decoration: none;
@@ -313,6 +352,12 @@ display: flex;
 justify-content: center;
 }
 
+footer .sitelink ul li a:hover{
+    color: rgba(239, 9, 9, 0.7);
+}
+
+
+
 footer .contact ul{
     /* background-color: blue; */
     display: flex;
@@ -324,6 +369,10 @@ footer .contact ul li{
     /* margin: 0px 20px 0px 20px; */
     text-align: center;
     /* background-color: red; */
+}
+
+footer .contact ul li:hover{
+    color: rgba(239, 9, 9, 0.7);
 }
 
 @media only screen and (max-width:549px) {
@@ -415,6 +464,12 @@ footer .contact ul li{
         height: 600px;
     }
 
+    main .subject ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* text-align: center; */
+    }
+
     main .gallary{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -451,6 +506,14 @@ footer .contact ul li{
         width: 350px;
       
     }
+
+    main .subject ul{
+        margin-left: 100px;
+    }
+
+    main .subject span{
+        font-size: 20px;
+    }
     main .gallary .pic{
         width: 100%;
         height: 450px;
@@ -462,5 +525,9 @@ footer .contact ul li{
     main .oursch .program{
         width: 500px;
       
+    }
+
+    main .subject ul{
+        margin-left: 300px;
     }
 }
